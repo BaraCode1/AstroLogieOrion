@@ -1,0 +1,164 @@
+body {
+    font-family: Roboto, sans-serif;
+    text-decoration-thickness: 20px;
+    text-decoration-style: solid;
+    line-height: 1.5;
+    
+
+}
+#pagePrincipale
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+nav 
+{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+.liste {
+    color: blueviolet;
+
+}
+
+@media(max-width:768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#table tr td div
+{
+    width: 150px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.align {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    height: 8em;
+    width: 8em;
+}
+
+
+
+#insta {
+
+    height: 3em;
+    width: 3em;
+
+}
+
+nav {
+    background-image: url(images/nasa-rTZW4f02zY8-unsplash.jpg);
+    height: 130px;
+    width: 100%;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 60PX;
+    margin: 0 2px;
+    text-transform: uppercase;
+
+}
+
+
+
+#color {
+    color: blueviolet;
+
+}
+
+.mainpage {
+    margin: 0 0 17px 0;
+    background-color: floralwhite;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+#form {
+   
+    background-color: pink;
+    width: 320px;
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 300px;
+   
+}
+
+.form div {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+
+}
+#datee
+{
+    
+    position: relative;
+    left: 900px;
+    background: #D3D3D3;
+    margin-right:900px;
+}
+#rendez-vous
+{
+    color: #fff;
+    background: pink;
+    position: relative;
+    left: 800px;
+    bottom: 180px;
+    margin-right: 790px;
+}
+.emailaEnvoye h2
+{
+   color: white;
+}
+
